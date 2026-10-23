@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bianca Barcenilla | Student Portfolio</title>
+  <meta name="description" content="Portfolio of Bianca Barcenilla, a 4th-year IT student learning web design and front-end development. Introduction, skills, class projects, and contact details.">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="#home">Bianca Barcenilla</a>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-toggle-label">Menu</span>
+      </button>
+
+      <nav id="site-nav" class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- HOME -->
+    <section id="home" class="hero">
+      <div class="wrap hero-grid">
+        <div class="hero-text">
+          <h1>Hi, I'm <span class="ph">Bianca Barcenilla</span>.</h1>
+          <p class="lead">
+            I'm a <span class="ph">4th-year IT student</span>
+            learning <span class="ph">web design and front-end development</span>.
+          </p>
+          <p>
+            <span class="ph">Passionate about building intuitive user interfaces, clean typography, and interactive web experiences.</span>
+          </p>
+          <div class="button-row">
+            <a class="btn btn-primary" href="#projects">See my projects</a>
+            <a class="btn btn-ghost" href="mailto:biancamariepbarcenilla@gmail.com">Email me</a>
+          </div>
+        </div>
+
+        <figure class="hero-photo">
+          <img src="mee.jpg" width="400" height="480" alt="Portrait of Bianca Barcenilla">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section">
+      <div class="wrap two-col">
+        <h2>About me</h2>
+        <div class="prose">
+          <p>
+            I'm a 4th-year IT student at Cebu Eastern College, Inc., where I'm focusing on web design. At first, I just took this course because of practical reasons, but I quickly became interested in the creative aspects of web development, specifically the UI aspect.
+          </p>
+          <p>
+            My goal is to know the fundamentals of designing UI.
+          </p>
+          <h3>Interests</h3>
+          <ul class="plain-list">
+            <li>UI design</li>
+            <li>Video gaming</li>
+            <li>House architecture and designs</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-alt">
+      <div class="wrap two-col">
+        <h2>Skills</h2>
+        <div>
+          <p class="note">An honest look at where I am right now.</p>
+          <ul class="skill-list">
+            <li>
+              <span class="skill-name">HTML</span>
+              <span class="level level-2">Comfortable</span>
+            </li>
+            <li>
+              <span class="skill-name">CSS</span>
+              <span class="level level-2">Comfortable</span>
+            </li>
+            <li>
+              <span class="skill-name">JavaScript</span>
+              <span class="level level-1">Learning</span>
+            </li>
+            <li>
+              <span class="skill-name">Git and GitHub</span>
+              <span class="level level-1">Learning</span>
+            </li>
+          </ul>
+          <p class="note">
+            Levels: <strong>Learning</strong> means I can do it with help or references.
+            <strong>Comfortable</strong> means I can do it on my own for class projects.
+            <strong>Strong</strong> means I can explain it to others.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section">
+      <div class="wrap">
+        <h2>Projects</h2>
+        <p class="note">Classwork and practice projects I've built.</p>
+
+        <article class="project">
+          <div class="project-image">
+            <img src="complain.png" alt="Description of image">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect width="18" height="18" x="3" y="3" rx="2"/><path d="m3 9 18 0"/><path d="m9 21 0-12"/></svg>
+          </div>
+          <div class="project-body">
+            <h3>RekSolva UI</h3>
+            <p>First draft of a modern UI design, for our System Design project.</p>
+            <p><strong>My contribution:</strong> Designed the most of the layout.</p>
+            <p><strong>Tools: </strong>Figma</p> 
+        </article>
+
+        <article class="project">
+          <div class="project-image">
+            <img src="meme.png" alt="Description of image">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="m9 12 2 2 4-4"/><circle cx="12" cy="12" r="10"/></svg>
+          </div>
+          <div class="project-body">
+            <h3>Meme Matching</h3>
+            <p>Simple matching game</p>
+            <p><strong>My contribution:</strong> Created the game logic and implemented the user interface.</p>
+            <p><strong>Tools: </strong> HTML, CSS</p>
+            <a class="text-link" href="https://github.com/byangcakesss/bianca-old-files" target="_blank" rel="noopener">View project (GitHub) &rarr;</a>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-image">
+            <img src="voting.png" alt="Description of image">
+            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+          </div>
+          <div class="project-body">
+           <h3> CEC Voting </h3>
+            <p>Voting system for IT CEC student council.</p>
+            <p><strong>My contribution:</strong> Designed some of the layout.</p>
+            <p><strong>Tools:</strong> HTML5, CSS3, Google Fonts, VS Code</p>
+            <a class="text-link" href="https://github.com/tristanodencio/CEC_VOTING" target="_blank" rel="noopener">View project (GitHub) &rarr;</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section section-alt">
+      <div class="wrap two-col">
+        <h2>Contact</h2>
+        <div class="prose">
+          <p>Want to get in touch? Send me an email.</p>
+          <p class="contact-main">
+            <a href="mailto:biancamariepbarcenilla@gmail.com">biancamariepbarcenilla@gmail.com</a>
+          </p>
+          <ul class="plain-list">
+            <li><a href="https://github.com/byangcakesss" target="_blank" rel="noopener">GitHub profile &rarr;</a></li>
+            <li><a href="https://www.linkedin.com/in/bianca-marie-p-barcenilla-468007444" target="_blank" rel="noopener">LinkedIn profile &rarr;</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span id="year">2026</span> Bianca Barcenilla &bull; 4th-year IT Student</p>
+      <p class="footer-note">
+        Built with HTML5 &amp; CSS3 &bull; Cebu Eastern College, Inc.
+      </p>
+    </div>
+  </footer>
+</body>
+</html>
